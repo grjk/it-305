@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="icon" type="image/png" href="images/me-fav.png">
+
+    <style>
+        body {
+            font-family: "Century Gothic";
+        }
+
+        @keyframes slideInFromBottom {
+            0% {
+                transform: translateY(-50%);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        #goDown {
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            animation: 1s ease-out 0s 1 slideInFromBottom;
+        }
+    </style>
+
+    <title>HTML Resume</title>
+</head>
+<body class="container text-center">
+<section class="bg-light rounded-lg mx-5 pb-4 pt-5 pr-5 pl-5 d-md-block shadow">
+    <fieldset class="pb-4">
+        <div>
+            <h1><img src="images/profile-pic.png" class="shadow rounded-lg" alt="Profile Picture" height="100"
+                     width="100"/><span class="pl-4">Joshua Kristiansen</span></h1>
+        </div>
+
+        <br>
+
+        <div class="text-left border-left border-right border-secondary pl-2 pr-2">
+            <p class="m-0">jkristiansen@mail.greenriver.edu<span><a
+                    href="https://www.linkedin.com/in/joshua-kristiansen-77688615b/"
+                    class="float-right">linkedin.com/me</a></span></p>
+            <p><a href="tel:253-000-0000">253-000-0000</a><span><a href="https://github.com/grjk"
+                                                                   class="float-right text-">github.com/grjk</a></span>
+            </p>
+        </div>
+
+        <br>
+
+        <div class="text-left border-left border-secondary pl-2 bg-white">
+            <h4>Summary</h4>
+            <p class="ml-3">Current student of Bachelors of Applied Science in Software Development at Green River
+                College, as well as a current Green River development intern.</p>
+        </div>
+
+        <br>
+
+        <div class="text-left border-left border-secondary pl-2 bg-white">
+            <h4>Education</h4>
+            <p class="mb-2 font-weight-bold">High School Diploma</p>
+            <p class="m-0 font-weight-bold">Highline Community College – <span
+                    class="font-weight-normal">Des Moines, WA</span></p>
+            <blockquote class="blockquote-footer mb-2">
+                Associate of Arts
+            </blockquote>
+            <!--<ul class="m-0">
+                <li>
+                    Associate of Arts
+                </li>
+            </ul>-->
+            <p class="m-0 font-weight-bold">Green River College – <span class="font-weight-normal">Auburn, WA</span></p>
+            <blockquote class="blockquote-footer">
+                Bachelor of Applied Science in Software Development, expected June 2019
+            </blockquote>
+            <!--<ul>
+                <li>
+                    Bachelor of Applied Science, expected June 2021
+                </li>
+            </ul>-->
+        </div>
+
+        <br>
+
+        <div class="text-left border-left border-secondary pl-2 bg-white">
+            <h4>Skills</h4>
+            <ul class="d-inline-block">
+                <li>HTML, CSS, PHP, JavaScript, Bootstrap</li>
+                <li>Java, C#</li>
+                <li>C++</li>
+                <li>Adobe</li>
+                <li>Microsoft Office</li>
+            </ul>
+            <ul class="d-inline-block align-top">
+                <li>Adobe
+                    <ul>
+                        <li>Photoshop, Illustrator, Premiere Pro, After Effects, Lightroom</li>
+                    </ul>
+                </li>
+                <li>Microsoft Office
+                    <ul>
+                        <li>Word, Excel, Outlook</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <br>
+
+        <div class="text-left border-left border-secondary pl-2 bg-white">
+            <h4>Work Experience</h4>
+            <p class="m-0 font-weight-bold">Green River College Internship</p>
+            <blockquote class="blockquote-footer m-0">
+                Sep. 2018 - Current
+            </blockquote>
+            <p class="mb-4 ml-3 h6 font-weight-normal">My role in my internship for Green River College is focused on
+                creating a more user-friendly environment for Green River
+                College's website. I am working with the front and back-end to create a unique experience for every-day
+                users to be able to fluently use the website to
+                get what they need from it.</p>
+
+            <p class="m-0 font-weight-bold">Cashomatic</p>
+            <blockquote class="blockquote-footer m-0">
+                Sep. 2018 - Nov. 2018
+            </blockquote>
+            <p class="m-0 ml-3 h6 font-weight-normal">As a developer for Cashomatic, my role entailed full stack
+                development of a website and app avoiding adding any complexity
+                to the code and keeping it to a minimum. Researching the best and effective ways to program both a
+                website and an app from scratch, as well
+                as designing the UX and layout. Using the MongoDB database online to store user and profile information,
+                as well as retrieving it when needed.</p>
+        </div>
+        <div id="bop"></div>
+        <!--<a href="#bop">
+            <input id="goDown" type="image" src="images/arrow-down.png" alt="Down Arrow" width="75" height="75">
+        </a>-->
+    </fieldset>
+</section>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
